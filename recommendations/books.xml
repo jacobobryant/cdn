@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://Feeds.jobryant.repl.co/books/json</id>
+    <title>Books and Authors</title>
+    <updated>2019-12-09T15:24:21.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name/>
+        <email/>
+        <uri/>
+    </author>
+    <link rel="alternate" href="https://Feeds.jobryant.repl.co/books/json"/>
+    <link rel="self" href="https://jacobobryant.com/recommendations/books.xml"/>
+    <entry>
+        <title type="html"><![CDATA[Pride and Prejudice]]></title>
+        <id>https://www.goodreads.com/work/best_book/3060926-pride-and-prejudice</id>
+        <link href="https://www.goodreads.com/work/best_book/3060926-pride-and-prejudice"/>
+        <updated>2019-12-09T15:24:21.000Z</updated>
+        <summary type="html"><![CDATA[by,Jane Austen Anna Quindlen(Introduction) Margaret Oliphant(Commentary) George Saintsbury(Commentary) Mark Twain(Commentary) A.C. Bradley(Commentary) Walter A.]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers]]></title>
+        <id>https://www.goodreads.com/work/best_book/25548865-the-hard-thing-about-hard-things-building-a-business-when-there-are-no</id>
+        <link href="https://www.goodreads.com/work/best_book/25548865-the-hard-thing-about-hard-things-building-a-business-when-there-are-no"/>
+        <updated>2019-12-09T15:24:20.000Z</updated>
+        <summary type="html"><![CDATA[by Ben Horowitz(Goodreads Author)A lot of people talk about how great it is to start a business, but only Ben Horowitz is brutally honest about how hard it is to run one.]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elantris]]></title>
+        <id>https://www.goodreads.com/work/best_book/2908871-elantris</id>
+        <link href="https://www.goodreads.com/work/best_book/2908871-elantris"/>
+        <updated>2019-12-09T15:24:20.000Z</updated>
+        <summary type="html"><![CDATA[Elantris was the capital of Arelon: gigantic, beautiful, literally radiant, filled with benevolent beings who used their powerful magical abilities for the benefit of all. Yet each of these demigods was once an ordinary person until touched by the mysterious transforming power of the Shaod.]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Innovator's Dilemma: The Revolutionary Book that Will Change the Way You Do Business]]></title>
+        <id>https://www.goodreads.com/work/best_book/1468535-the-innovator-s-dilemma-the-revolutionary-book-that-will-change-the-way</id>
+        <link href="https://www.goodreads.com/work/best_book/1468535-the-innovator-s-dilemma-the-revolutionary-book-that-will-change-the-way"/>
+        <updated>2019-12-09T15:24:20.000Z</updated>
+        <summary type="html"><![CDATA[byClayton M. ChristensenIn this revolutionary bestseller, Harvard professor Clayton M. Christensen says outstanding companies can do everything right and still lose their market leadership -- or worse, disappear completely.]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Developer Hegemony: The Future of Labor]]></title>
+        <id>https://www.goodreads.com/book/show/35051753-developer-hegemony</id>
+        <link href="https://www.goodreads.com/book/show/35051753-developer-hegemony"/>
+        <updated>2019-12-09T15:24:19.000Z</updated>
+        <summary type="html"><![CDATA[It’s been said that software is eating the planet. The modern economy—the world itself—relies on technology. Demand for the people who can produce it far outweighs the supply. So why do developers occupy largely subordinate roles in the corporate structure?]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Give and Take: A Revolutionary Approach to Success]]></title>
+        <id>http://www.goodreads.com/work/best_book/21998914-give-and-take-a-revolutionary-approach-to-success</id>
+        <link href="http://www.goodreads.com/work/best_book/21998914-give-and-take-a-revolutionary-approach-to-success"/>
+        <updated>2019-12-09T15:24:19.000Z</updated>
+        <summary type="html"><![CDATA[by Adam M. Grant(Goodreads Author)An innovative, groundbreaking book that will captivate readers of Malcolm Gladwell, Daniel Pink, The Power of Habit, and Quiet For generations, we have focused on the individual drivers of success: passion, hard work, talent, and luck.]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Primed to Perform: How to Build the Highest Performing Cultures Through the Science of Total Motivation]]></title>
+        <id>https://www.goodreads.com/work/best_book/44058534-primed-to-perform-how-to-build-the-highest-performing-cultures-through</id>
+        <link href="https://www.goodreads.com/work/best_book/44058534-primed-to-perform-how-to-build-the-highest-performing-cultures-through"/>
+        <updated>2019-12-09T15:24:19.000Z</updated>
+        <summary type="html"><![CDATA[The revolutionary book that teaches you how to use the cutting edge of human psychology to build high performing workplace cultures. Too often, great cultures feel like magic. While most leaders believe culture is critical to success, few know how to build one, or sustain it over time.]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quiet: The Power of Introverts in a World That Can't Stop Talking]]></title>
+        <id>https://www.goodreads.com/work/best_book/13387396-quiet-the-power-of-introverts-in-a-world-that-can-t-stop-talking</id>
+        <link href="https://www.goodreads.com/work/best_book/13387396-quiet-the-power-of-introverts-in-a-world-that-can-t-stop-talking"/>
+        <updated>2019-12-09T15:24:18.000Z</updated>
+        <summary type="html"><![CDATA[At least one-third of the people we know are introverts. They are the ones who prefer listening to speaking; who innovate and create but dislike self-promotion; who favor working on their own over working in teams. It is to introverts—Rosa Parks, Chopin, Dr.]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The ABCs of How We Learn: 26 Scientifically Proven Approaches, How They Work, and When to Use Them]]></title>
+        <id>https://www.goodreads.com/work/best_book/46521424-the-abcs-of-how-we-learn-26-scientifically-proven-approaches-how-they</id>
+        <link href="https://www.goodreads.com/work/best_book/46521424-the-abcs-of-how-we-learn-26-scientifically-proven-approaches-how-they"/>
+        <updated>2019-12-09T15:24:18.000Z</updated>
+        <summary type="html"><![CDATA[by,Daniel L. SchwartzKristen P. BlairJessica M. TsangAn explosive growth in research on how people learn has revealed many ways to improve teaching and catalyze learning at all ages.]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Sexual Paradox: Extreme Men, Gifted Women and the Real Gender Gap]]></title>
+        <id>https://www.goodreads.com/work/best_book/2022168-the-sexual-paradox-extreme-men-gifted-women-and-the-real-gender-gap</id>
+        <link href="https://www.goodreads.com/work/best_book/2022168-the-sexual-paradox-extreme-men-gifted-women-and-the-real-gender-gap"/>
+        <updated>2019-12-09T15:24:18.000Z</updated>
+        <summary type="html"><![CDATA[bySusan PinkerAfter four decades of eradicating gender barriers at work and in public life, why do men still dominate business, politics and the most highly paid jobs? Why do high-achieving women opt out of successful careers? Psychologist Susan Pinker explores the illuminating answers to these ques]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mormon Scientist: The Life and Faith of Henry Eyring]]></title>
+        <id>https://www.goodreads.com/work/best_book/2307391-mormon-scientist-the-life-and-faith-of-henry-eyring</id>
+        <link href="https://www.goodreads.com/work/best_book/2307391-mormon-scientist-the-life-and-faith-of-henry-eyring"/>
+        <updated>2019-12-09T15:24:17.000Z</updated>
+        <summary type="html"><![CDATA[byHenry J. EyringTwice in the final years of his life, Elder Neal A. Maxwell told a grandson of Henry Eyring's, You need to write your grandfather's story. This is that story of Henry Eyring, perhaps the most acclaimed scientist ever to come from The Church of Jesus Christ of Latter-day Saints.]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Walter Isaacson]]></title>
+        <id>https://www.goodreads.com/author/show/7111.Walter_Isaacson</id>
+        <link href="https://www.goodreads.com/author/show/7111.Walter_Isaacson"/>
+        <updated>2019-12-09T15:24:17.000Z</updated>
+        <summary type="html"><![CDATA[“If you want to live your life in a creative way, as an artist, you have to not look back too much. You have to be willing to take whatever you’ve done and whoever you were and throw them away.]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Malcolm Gladwell]]></title>
+        <id>https://www.goodreads.com/author/show/1439.Malcolm_Gladwell?from_search=true</id>
+        <link href="https://www.goodreads.com/author/show/1439.Malcolm_Gladwell?from_search=true"/>
+        <updated>2019-12-09T15:24:17.000Z</updated>
+        <summary type="html"><![CDATA[Sorry. I can't resist. John Carson, a fellow runner from Canada, unearthed this photo from the archives of the Toronto Star. It's the finals of the 1500 meters at the Ontario 14-year-old championships, many many years ago.]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+</feed>

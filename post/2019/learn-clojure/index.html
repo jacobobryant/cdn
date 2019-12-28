@@ -1,0 +1,130 @@
+<html><head><meta charset="utf-8" /><meta content="width=device-width, initial-scale=1" name="viewport" /><link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet" /><link href="/css/custom.css" rel="stylesheet" /><link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" /><link href="/css/prism.css" rel="stylesheet" /><title>Learn Clojure with Web Dev | Jacob O'Bryant</title><meta content="Jacob O&apos;Bryant" name="author" /><meta content="Learn Clojure with Web Dev | Jacob O&apos;Bryant | Jacob O&apos;Bryant" name="description" /></head><body style="margin-bottom:20px;font-size:16px;font-family:&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"><nav class="navbar navbar-dark bg-dark navbar-expand-md"><div class="container"><ul class="navbar-nav"><li class="nav-item"><a class="navbar-brand" href="https://jacobobryant.com/" style="font-size:22px">Jacob O'Bryant</a></li><li class="nav-item active"><a class="nav-link" href="https://jacobobryant.com/" style="font-size:18px">Articles</a></li><li class="nav-item "><a class="nav-link" href="https://jacobobryant.com/recommendations/" style="font-size:18px">Recommendations</a></li><li class="nav-item "><a class="nav-link" href="https://jacobobryant.com/about/" style="font-size:18px">About</a></li></ul></div></nav><div style="width:25px;height:25px"></div><div class="container"><div class="row"><div class="col-lg-2 d-flex flex-row flex-lg-column align-items-center align-items-lg-start mb-3" style="font-size:14px"><img src="/about/avatar.jpg" width="130px" /><div style="width:20px;height:10px"></div><div><div>Founder @ <a href="https://lagukan.com" target="_blank">Lagukan</a></div><div style="width:5px;height:5px"></div><div><a href="https://tinyletter.com/jacobobryant" target="_blank">Subscribe</a> (<a href="https://jacobobryant.com/atom.xml" target="_blank">feed</a>)</div><div style="width:5px;height:5px"></div><div><a href="https://twitter.com/obryant666" target="_blank">Twitter</a></div></div></div><div class="col-lg" style="max-width:600px"><h3>Learn Clojure with Web Dev</h3><p>October 2019</p><p>I've created this document so that I have a single link I can give people for learning Clojure. It is:</p><ul><li>a work in progress</li><li>not meant to be comprehensive</li><li>opinionated/a reflection of how I do web development</li></ul><p>I'm trying to help people get started without being overwhelmed by all the different options. I'll link to existing resources when possible, adding my own as needed.</p><p>Prerequisites:</p><ul><li>basic terminal experience</li><li>comfortable with HTML and CSS</li><li>know a different programming language already</li></ul><h3>Hello world</h3><p>First, <a href="https://clojure.org/guides/getting_started">install Clojure</a>. Then type <code>clj</code> to get an interactive prompt ("repl," short for read-eval-print-loop). In the repl, type <code>(println &quot;hello world&quot;)</code>:</p><pre><code class="lang-bash">$ clj
+Clojure 1.10.0
+user=&gt; (println &quot;hello world&quot;)
+hello world
+nil
+user=&gt;
+</code></pre><p>Instead of using the default repl, you can get an enhanced repl like so:</p><pre><code class="lang-bash">$ clojure -Sdeps &quot;{:deps {com.bhauman/rebel-readline {:mvn/version \&quot;0.1.4\&quot;}}}&quot; -m rebel-readline.main
+[Rebel readline] Type :repl/help for online help info
+user=&gt; (println &quot;hello world&quot;)
+hello world
+nil
+user=&gt;
+</code></pre><p>I recommend saving this as an alias, e.g. put the following in your <code>.bashrc</code>:</p><pre><code class="lang-bash">alias repl=&apos;clojure -Sdeps &quot;{:deps {com.bhauman/rebel-readline {:mvn/version \&quot;0.1.4\&quot;}}}&quot; -m rebel-readline.main&apos;
+</code></pre><h4>Run from a file</h4><p>I recommend starting out with the <a href="https://atom.io">Atom</a> text editor.[1] After you install it, create a new project folder. Within that folder, edit a new file <code>src/web/core.clj</code> with Atom. So your project folder should look like this:</p><pre><code class="lang-bash">$ tree myproject/
+myproject/
+└── src
+    └── web
+        └── core.clj
+</code></pre><p>Put the following inside <code>core.clj</code>:</p><pre><code class="lang-clojure">(ns web.core)
+
+(defn hello []
+  (println &quot;hello world&quot;))
+
+(defn -main []
+  (hello))
+</code></pre><p>From the terminal, you can run the file like so:</p><pre><code class="lang-bash">$ cd myproject
+$ clj -m web.core
+hello world
+</code></pre><h3>Start learning Clojure</h3><p>For actually learning the language, I recommend <a href="https://www.braveclojure.com/clojure-for-the-brave-and-true/">Clojure for the Brave and True</a>. (It's available online for free at that link, though I liked having a hard copy).</p><p>You can skip chapters 1 and 2. Work through chapter 3 before going on to the next section in this document. Fairly soon, make sure you also understand everything in chapters 4 and 5. These three chapters contain the fundamentals of the language.</p><p>All of the remaining chapters are useful too. Make sure you understand them eventually. But for now, you can just skim them a bit and refer back as needed.</p><h3>Start doing web dev</h3><p>I'll now show you the first fundamental of web development: how to generate HTML and CSS. We'll create a static landing page. This is a great first project because it's pretty simple, and generating HTML + CSS is much nicer in Clojure than in any other language. You could even extend this project into a personal blog/website if you like (this website is written with Clojure).</p><p>We need to add a library to your project. Create a file <code>myproject/deps.edn</code> with the following contents:</p><pre><code class="lang-clojure">{:deps
+ {trident/staticweb {:mvn/version &quot;0.1.18&quot;}}}
+</code></pre><p>Change the contents of <code>core.clj</code> to this:</p><pre><code class="lang-clojure">(ns web.core
+  (:require [trident.staticweb :as tsweb]))
+
+(def landing-page
+  [:p &quot;hello world&quot;])
+
+(defn -main []
+  (println (tsweb/html landing-page)))
+</code></pre><p>The <code>tsweb/html</code> function[2] takes a data structure that represents HTML:</p><pre><code class="lang-bash">$ clj -m web.core
+&lt;p&gt;hello world&lt;/p&gt;
+</code></pre><p>We can add inline css like so:</p><pre><code class="lang-clojure">(def landing-page
+  [:p {:style {:color &quot;red&quot;}} &quot;hello world&quot;])
+</code></pre><pre><code class="lang-bash">$ clj -m web.core
+&lt;p style=&quot;color:red&quot;&gt;hello world&lt;/p&gt;
+</code></pre><p>Because we're using plain data structures for both HTML and CSS, we can use functional abstraction and other standard programming techniques instead of dealing with templating languages or preprocessors. (Hallelujah).</p><pre><code class="lang-clojure">(defn p [color text]
+  [:p {:style {:color color}} text])
+
+(def landing-page
+  [:div
+   (p &quot;red&quot; &quot;hello world&quot;)
+   (p &quot;blue&quot; &quot;goodnight moon&quot;)])
+</code></pre><pre><code class="lang-bash">$ clj -m web.core
+&lt;div&gt;
+  &lt;p style=&quot;color:red&quot;&gt;hello world&lt;/p&gt;
+  &lt;p style=&quot;color:blue&quot;&gt;goodnight moon&lt;/p&gt;
+&lt;/div&gt;
+</code></pre><p>(Indentation added).</p><p>Let's make this a little more complete, and let's have it write the HTML to a file for us.</p><pre><code class="lang-clojure">(def landing-page
+  [:html
+   [:head
+    [:meta {:charset &quot;utf-8&quot;}]]
+   [:body
+    [:div
+     (p &quot;red&quot; &quot;hello world&quot;)
+     (p &quot;blue&quot; &quot;goodnight moon&quot;)]]])
+
+(defn -main []
+  (spit &quot;public/index.html&quot; (tsweb/html landing-page)))
+</code></pre><p>Before running this, you'll need to create the <code>public</code> directory.</p><pre><code class="lang-bash">$ mkdir public
+$ clj -m web.core
+$ cat public/index.html
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div&gt;
+      &lt;p style=&quot;color:red&quot;&gt;hello world&lt;/p&gt;
+      &lt;p style=&quot;color:blue&quot;&gt;goodnight moon&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre><p>You can open <code>index.html</code> in a web browser now.</p><p>For interactivity, we'll add some plain Javascript. We could use Clojurescript, but it's overkill for simple things (in addition to increasing your payload size, using Clojurescript can be quite complex). You can switch to Clojurescript later when the time is right.</p><p>Add a button to the div element:</p><pre><code class="lang-clojure">[:div
+ (p &quot;red&quot; &quot;hello world&quot;)
+ (p &quot;blue&quot; &quot;goodnight moon&quot;)
+ [:button {:onclick &quot;alert(\&quot;spam eggs\&quot;)&quot;} &quot;click me&quot;]]
+</code></pre><p>Regenerate the HTML and test out the button before we move on.</p><p>Let's separate the Javascript into a separate file.</p><pre><code class="lang-clojure">(def landing-page
+  [:html
+   [:head
+    [:meta {:charset &quot;utf-8&quot;}]
+    [:script {:src &quot;index.js&quot;}]]
+   [:body
+    [:div
+     (p &quot;red&quot; &quot;hello world&quot;)
+     (p &quot;blue&quot; &quot;goodnight moon&quot;)
+     [:button {:onclick &quot;doSomething()&quot;} &quot;click me&quot;]]]])
+</code></pre><p>Create a file <code>myproject/public/index.js</code> with the following contents:</p><pre><code class="lang-javascript">function doSomething() {
+  alert(&quot;spam eggs&quot;);
+}
+</code></pre><p>Regenerate and test it out.</p><p>Next, let's add some <a href="https://getbootstrap.com">Bootstrap</a> to make CSS easier.</p><pre><code class="lang-clojure">(def bootstrap-4
+  [:link {:rel &quot;stylesheet&quot;
+          :href &quot;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css&quot;
+          :integrity &quot;sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T&quot;
+          :crossorigin &quot;anonymous&quot;}])
+
+(def landing-page
+  [:html
+   [:head
+    [:meta {:charset &quot;utf-8&quot;}]
+    [:script {:src &quot;index.js&quot;}]
+    bootstrap-4]
+   [:body
+    [:div.container
+     (p &quot;red&quot; &quot;hello world&quot;)
+     (p &quot;blue&quot; &quot;goodnight moon&quot;)
+     [:button.btn.btn-primary {:onclick &quot;doSomething()&quot;} &quot;click me&quot;]]]])
+</code></pre><p>Boom. Now you're all set to make a sweet landing page for your new product/consulting business/dog. I'll let you finish that on your own, but you can take a look at the code for <a href="https://github.com/jacobobryant/clj-landing-page-example">my startup's landing page</a> for inspiration (yes, this whole document is just an advertisement). You can put the <code>public</code> directory on any static website host. I use Firebase, but Github Pages and Netlify are other popular options.</p><p>You can also see <a href="https://github.com/jacobobryant/site">the source for this website</a> for an example of creating a blog with Clojure.</p><h3>The road ahead</h3><p>I'll write more in the future, but next you should learn about Clojurescript and Reagent. (Re-frame is also common, but don't worry about that for now). Reagent is a wrapper over React that lets you use the same syntax for HTML and CSS that we've used here.</p><p>After that, it'll be time to get into backend development. I'll write about simple ways to get started with that, and I'll cover getting started with <a href="https://www.datomic.com">Datomic</a> as well, a database that embraces functional programming concepts (made by the creators of Clojure).</p><p>I'll also give some tips for using the available Clojure tooling. For one thing, you should install the parinfer plugin for Atom (<code>apm install parinfer</code>). With parinfer, you don't need to type any closing parentheses. Just indent your code properly, and parinfer will infer the parentheses for you.</p><br>
+<br>
+<br><p><strong>Notes</strong></p><p>[1] I don't actually use Atom myself, but I recommend it here because it's a mouse-friendly editor that has working autoindent for Clojure out of the box.</p><p>[2] <a href="https://github.com/jacobobryant/trident">trident/staticweb</a> is a simple library I've made that wraps <a href="https://github.com/weavejester/hiccup">Hiccup</a> and <a href="https://github.com/noprompt/garden">Garden</a>, allowing you to write inline CSS à la <a href="https://reagent-project.github.io/">Reagent</a>.</p><hr /><p class="small">There's more where that came from if you <a href="https://tinyletter.com/jacobobryant" target="_blank">subscribe</a> to my newsletter.</p></div></div></div><script type="text/javascript">
+ var sc_project=12140644;
+ var sc_invisible=1;
+ var sc_security="e36ded0c";
+ var sc_https=1;
+ var sc_remove_link=1;
+ </script>
+ <script type="text/javascript"
+ src="https://www.statcounter.com/counter/counter.js"
+ async></script>
+ <noscript><div class="statcounter"><img class="statcounter"
+ src="https://c.statcounter.com/12140644/0/e36ded0c/1/"
+ alt="site stats"></div></noscript><script src="/js/prism.js"></script></body></html>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://Feeds.jobryant.repl.co/movies/json</id>
+    <title>Movies</title>
+    <updated>2019-12-09T15:54:34.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name/>
+        <email/>
+        <uri/>
+    </author>
+    <link rel="alternate" href="https://Feeds.jobryant.repl.co/movies/json"/>
+    <link rel="self" href="https://jacobobryant.com/recommendations/movies.xml"/>
+    <entry>
+        <title type="html"><![CDATA[Bridge of Spies (2015)]]></title>
+        <id>https://www.imdb.com/title/tt3682448/</id>
+        <link href="https://www.imdb.com/title/tt3682448/"/>
+        <updated>2019-12-09T15:54:34.000Z</updated>
+        <summary type="html"><![CDATA[Get the best new trailers in under a minute, including The Lion King, and The Lego Movie 2: The Second Part. Want to share IMDb's rating on your own site? Use the HTML below.]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Citizenfour (2014)]]></title>
+        <id>http://www.imdb.com/title/tt4044364/</id>
+        <link href="http://www.imdb.com/title/tt4044364/"/>
+        <updated>2019-12-09T15:54:34.000Z</updated>
+        <summary type="html"><![CDATA[Arielle Kebbel shares the details about her character in the hotly anticipated Fifty Shades Freed.  Want to share IMDb's rating on your own site? Use the HTML below.]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Finest Hours (2016)]]></title>
+        <id>http://www.imdb.com/title/tt2025690/</id>
+        <link href="http://www.imdb.com/title/tt2025690/"/>
+        <updated>2019-12-09T15:54:34.000Z</updated>
+        <summary type="html"><![CDATA[In February of 1952, one of the worst storms to ever hit the East Coast struck New England, damaging an oil tanker off the coast of Cape Cod and literally ripping it in half.]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+</feed>

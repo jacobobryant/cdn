@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://Feeds.jobryant.repl.co/products/json</id>
+    <title>Products</title>
+    <updated>2019-12-09T15:54:35.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name/>
+        <email/>
+        <uri/>
+    </author>
+    <link rel="alternate" href="https://Feeds.jobryant.repl.co/products/json"/>
+    <link rel="self" href="https://jacobobryant.com/recommendations/products.xml"/>
+    <entry>
+        <title type="html"><![CDATA[Kinesis Advantage]]></title>
+        <id>https://www.amazon.com/Kinesis-Advantage2-Ergonomic-Keyboard-KB600/dp/B01KR1C5PY</id>
+        <link href="https://www.amazon.com/Kinesis-Advantage2-Ergonomic-Keyboard-KB600/dp/B01KR1C5PY"/>
+        <updated>2019-12-09T15:54:35.000Z</updated>
+        <summary type="html"><![CDATA[(keyboard)]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beyerdynamic DT 770 80 Ohm]]></title>
+        <id>https://www.amazon.com/beyerdynamic-770-PRO-Studio-Headphone/dp/B0016MNAAI</id>
+        <link href="https://www.amazon.com/beyerdynamic-770-PRO-Studio-Headphone/dp/B0016MNAAI"/>
+        <updated>2019-12-09T15:54:35.000Z</updated>
+        <summary type="html"><![CDATA[(headphones)]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+</feed>

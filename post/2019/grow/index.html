@@ -7,15 +7,15 @@ B   C
  / \
 D   E
 </code></pre><p>But what if you do want A, but you just want to tweak some of the functionality in a lower artifact, like D or E? The author of A needs to somehow write their code in a way so that the lower layers can be modified. It's a hard problem since you often have a lot of dependencies and it's hard to know ahead of time in what ways they'll need to be modified.</p><p>Armin Ronacher wrote a great article related to this problem called <a href="http://lucumr.pocoo.org/2013/2/13/moar-classes/">"Start Writing More Classes"</a>. Of particular importance is this footnote at the end:</p><blockquote><p>Something else I want to mention: what's written above will most likely result in some sort of warmed up discussion in regards to object oriented programming versus something else. Or inheritance versus strategies. Or virtual methods versus method passing. Or whatever else hackernews finds worthy of a discussion this time around.</p><p>All of that is entirely irrelevant to the point I'm making which is that monolithic pieces of code are a bad idea. And our solution to monolithic code in Python are classes. If your hammer of choice is Haskell then use whatever the equivalent in Haskell looks like. Just don't force me to fork your library because you decided a layered API is not something you want to expose to your user.</p></blockquote><p>So this is my fourth point:</p><ul><li>Figure out the best ways to use Clojure's language constructs to provide layered APIs. For example, although I know <em>how</em> to use types and protocols, I don't yet grok <em>when</em> to introduce my own. I'm planning to keep thinking about things like this as I go.</li></ul><p>So that's my philosophy. Hope you liked it!</p><p><br ><br ><br ></p><p><a href="https://news.ycombinator.com/item?id=20164657">Hacker News</a></p><p><a href="https://www.reddit.com/r/Clojure/comments/bzrkay/growing_a_framework_or_clojure_made_easy/">Reddit</a></p><p><strong>Notes</strong></p><p>[1] Here's an explanation of why from <a href="http://lucumr.pocoo.org/2010/6/14/opening-the-flask/#why-create-your-own-framework">outside Clojureland</a>, and there's also <a href="https://clojureverse.org/t/clojure-libs-frameworks-tooling-for-rapid-web-development/4017/5">this message</a> by Sean Corfield. I want to be clear that I agree with these arguments; I'm just attempting to bring the discussion a little deeper.</p><p>[2] Although we probably wouldn't call them "frameworks" then, in the same way that AI stops being called AI once it actually works.</p><p>Also, I'm reminded of <a href="https://blog.appcanary.com/2017/hard-isnt-simple-ruby-clojure.html">this blog post</a>. I think the author hit on some good points, although I don't agree with all his conclusions, like this one:</p><blockquote><p>In practice, ‘Simple Made Easy’ is an elaborate excuse for making software that is hard to use.</p></blockquote><p>You have to make things simple before you make things easy, and a lot of work in Clojure has gone towards making things simple. If less work has gone into making things easy, I think a more likely explanation is that people don't have infinite time, and they've tried to spend the time they do have on the most important things.</p><p>However, we can't forget that making things easy is an important next step, which is the point I'm trying to make.</p><p>[3] I'm fascinated that this problem seems to repeat itself.</p><hr /><p class="small">There's more where that came from if you <a href="https://tinyletter.com/jacobobryant" target="_blank">subscribe</a> to my newsletter.</p></div></div></div><script type="text/javascript">
- var sc_project=12140644;
- var sc_invisible=1;
- var sc_security="e36ded0c";
- var sc_https=1;
- var sc_remove_link=1;
- </script>
- <script type="text/javascript"
- src="https://www.statcounter.com/counter/counter.js"
- async></script>
- <noscript><div class="statcounter"><img class="statcounter"
- src="https://c.statcounter.com/12140644/0/e36ded0c/1/"
- alt="site stats"></div></noscript><script src="/js/prism.js"></script></body></html>
+var sc_project=12140644;
+var sc_invisible=1;
+var sc_security="e36ded0c";
+var sc_https=1;
+var sc_remove_link=1;
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><img class="statcounter"
+src="https://c.statcounter.com/12140644/0/e36ded0c/1/"
+alt="site stats"></div></noscript><script src="/js/prism.js"></script></body></html>

@@ -1,5 +1,7 @@
 {:date #inst "2021-08-30" :subject " + paid forwards"}
 
+*You can give feedback by replying to this email or by [joining us on Discord](https://discord.gg/xAumsfVyRd).*
+
 Big news: I've replaced our classified ads with a paid forwards system. You can access it from
 your (new) [publisher account]({{ signin }}), which replaces the stats links I've been giving people when they submit their newsletters.
 There's a form that looks like this:

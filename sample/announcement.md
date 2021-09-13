@@ -1,53 +1,52 @@
-{:date #inst "2021-09-06" :subject ", paid forwards results, download subscribers"}
+{:date #inst "2021-09-13" :subject ", edit title & description, algorithm improvements, classified ads"}
 
 *You can give feedback via email, [Discord](https://discord.gg/xAumsfVyRd) or [Twitter](https://twitter.com/the_sample_umm).*
 
-**Paid forwards results**
+**Edit title & description**
 
-It's been four days since paid forwards started. My expectations were exceeded: I estimated it would generate about $10/day in revenue, but in fact daily revenue has been in the range of $20 - $40. This has been pretty invigorating&mdash;it's been 2.5 years since I quite my job to do entrepreneurship full-time, and now it looks quite likely that this will be sustainable.
+You can now edit your newsletter's title and description from the publisher console:
 
-Another surprise (though not so much in hindsight) is that the paid forwards have been pretty concentrated. 19 newsletters are participating, and the distribution of
-forwards looks like this:
+![image](https://user-images.githubusercontent.com/3696602/133164547-b6aac9d1-65f3-4751-a4d2-744dcc60772b.png)
 
-![image](https://user-images.githubusercontent.com/3696602/132256945-8cb212c6-965d-4a1f-b29b-ecbef6f66150.png)
+**Algorithm improvements**
 
-In other words, most people are getting completely outbid. I mentioned that for the four people who had bought classified ads in the old system which hadn't finished running, I would convert your remaining ad spend into paid forwards credit and set the bid price at $0.75. Turns out that was a little naive&mdash;it seems the max bid price needs to be *at least* $1.50 - $2.00 in order to be competitive. (If you're one of those four people: I'll probably put classified ads back into the non-paid-forward emails soon, and then I'll start running your ads again like before). I added the median winning bid price to the publisher console as an attempt to make that more transparent:
+We made the algorithm more strict about sending you newsletters that match the interests you selected when you signed up. It does this for 50% of
+your recommendations; the rest will still have lots of variety.
+We started this in an A/B test early last week, and after a couple days it looked like it was actually hurting the algorithm's performance,
+since average rating went down. However we later noticed that the total number of ratings we collected went up significantly; i.e. the changes
+made people more likely to rate the newsletters.
 
-![image](https://user-images.githubusercontent.com/3696602/132257518-9a44e0f4-37b2-4703-93d0-c872bc21b51d.png)
+We started tracking another metric: "positive feedback rate," which is the percentage of recommendations that result in a 1-click subscribe or a 4- or 5-star review.
+The positive feedback rate for the new change went up significantly for the new algorithm changes. We think that low ratings are at least a sign that the newsletter was interesting enough for the user to engage with instead of ignoring it completely, kind of like how they say it's a healthy sign when you get a bunch of unsubscribes after sending out an email. Average rating doesn't take that into account, so going forward we'll probably pay more attention to the positive feedback rate when evaluating A/B tests.
 
-Ideally we'd give you some kind of (reliable) prediction, e.g. "With this max bid price, you'll probably get X forwards and Y subscribes per week." We might add that some time.
+As part of all that, I made it so you can update your interests. Click "change settings" at the bottom of one of The Sample's emails.
 
-Keep in mind that your bid price is combined with the algorithm's predicted rating for each user. You can still win auctions against people with a higher bid
-price if the algorithm thinks the user will like your newsletter more. As we improve the algorithm, the amount you'll have to bid to get subscribers will (maybe? hopefully?) go down.
+![image](https://user-images.githubusercontent.com/3696602/133165595-493f99e9-a6eb-4091-a9a8-f7f6d4b79c73.png)
 
-**Download subscribers CSV**
+I was originally planning to make an announcement about this to everyone, but I'm concerned about emphasizing the recent algorithm improvements too much.
+There's been an improvement, but it's incremental and I don't want to give the impression that we've made bigger changes than we actually have. We'll continue making improvements, and maybe we'll just let people find the new settings on their own.
 
-I added a CSV download link to the publisher console so you can get a list of everyone who clicked the 1-click subscribe
-link on your newsletter:
+(Oh, and you can set additional languages now. We don't have many non-English newsletters in the database currently, but I felt bad turning people down when they submitted them.)
 
-![image](https://user-images.githubusercontent.com/3696602/132257937-373b1a2c-39b9-4382-8f35-7786249cde7f.png)
+**Classified ads**
 
-For the sake of privacy, you'll need to verify ownership of your newsletter before you can download the CSV. The first
-time you click the link, you'll go to a page that'll send a code to your newsletter's Reply-To address, then you paste the code
-in. If you don't see the download link, try again after your next issue goes out. I only started recording the Reply-To address last week,
-and if it's absent, the link won't be there.
+I re-enabled the ad page. Ads are no longer targeted; instead they work like other newsletters: you book a day and then your ad goes to everyone on that day (not including the 10% of subscribers who get a paid forward). I've scheduled some of our old classified ads to run over the next several days. I'm not sure how the ROI of this will compare to paid forwards. I'm guessing that paid forwards are a better option for newsletters and the classified ads should be left for other kinds of products, but we'll see. After we have some more data, I'll include the median number of clicks.
 
-The CSV includes email address, which issue they were forwarded, the time they hit "subscribe in 1 click," and (for paid forwards)
-how much you paid for them.
+![image](https://user-images.githubusercontent.com/3696602/133165987-03fbd9ec-4c8d-4262-a99b-3e74a323dbd0.png)
+
 
 **Future work**
 
-Next up, I really need to do some more algorithm improvements. We've been getting more complaints from people getting newsletters that
-aren't related to the topics they selected when they signed up. To an extent, this is [by design](https://silken-cafe-474.notion.site/About-The-Sample-a989b5bd39054b37a51432d6999beac3#9571b2d19732498eb23774ce42aac99f)&mdash;but only to an extent. We need to hit the right balance between showing people
-things they expect to receive and showing them new things outside their current/explicit interests, and we're still weighted too heavily on the latter.
-Fortunately, with the crowd-sourced keywords we've been collecting, this'll be easier to fix now. So that's what I'll be up to for the next day or two. Hopefully this
-will improve our retention, which has been slipping a bit.
+One other update: I added this fancy little graph to the [submit page](https://thesample.ai/submit/):
 
-(That is, after I write some code to actually charge people for the paid forwards. We've made about $135 on paper, though it isn't quite in the bank yet!)
+![image](https://user-images.githubusercontent.com/3696602/133167254-340a097d-92a3-4027-8746-f4a37261caeb.png)
 
-After that, I'll start doing classified ads again, though I won't put them in the paid forwards. I'm going to simplify it. I'll just let people pick a day(s)
-and then show the same ad to everyone on that day, like every other newsletter does. Later on, if we're selling out all our inventory, we might make them targeted again.
+It's part of a new growth strategy. I'm going through newsletters in our database that weren't submitted by the author (i.e. subscribers mentioned them in
+response to "what other newsletters do you subscribe to" when they signed up, and I added them) and have a high conversion rate. I email the author
+(which is easy because I have each newsletter's Reply-To address in our database already) and say basically "Hey I run this thing, I added your newsletter a while ago
+and we've got you some subscribers already, here's a CSV of them, do you want to do some cross promotion and get even more subscribers, here's a graph with
+past performance cross promoting with other newsletters."
 
-I also have a handful of minor improvements planned, like letting you edit your newsletter's title and description from the publisher console.
+I've emailed a handful of people so far, and it's been pretty convenient at least. I could even make it totally automatic, but I do some manual vetting anyway (Scientific American probably isn't interested) so pasting a message into my email client is easy enough. I'm crossing my fingers that the response rate will be good. If this works, it might be all we need to grow fast.
 
 Jacob

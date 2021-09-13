@@ -39,7 +39,7 @@ I re-enabled the ad page. Ads are no longer targeted; instead they work like oth
 
 One other update: I added this fancy little graph to the [submit page](https://thesample.ai/submit/):
 
-![image](https://user-images.githubusercontent.com/3696602/133167254-340a097d-92a3-4027-8746-f4a37261caeb.png)
+![image](https://user-images.githubusercontent.com/3696602/133169361-bb4813fa-3d9b-4db0-9d6a-a3432901b7cf.png)
 
 It's part of a new growth strategy. I'm going through newsletters in our database that weren't submitted by the author (i.e. subscribers mentioned them in
 response to "what other newsletters do you subscribe to" when they signed up, and I added them) and have a high conversion rate. I email the author

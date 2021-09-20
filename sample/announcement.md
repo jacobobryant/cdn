@@ -1,52 +1,59 @@
-{:date #inst "2021-09-13" :subject ", edit title & description, algorithm improvements, classified ads"}
+{:date #inst "2021-09-20" :subject ", growing the referral program, blogging"}
 
 *You can give feedback via email, [Discord](https://discord.gg/xAumsfVyRd) or [Twitter](https://twitter.com/the_sample_umm).*
 
-**Edit title & description**
+**The referral program**
 
-You can now edit your newsletter's title and description from the publisher console:
+As I mentioned last week, I went through the newsletters in our database with high conversion rates and emailed the publishers, asking
+if they'd like to cross-promote with The Sample (to the handful of you who joined after getting one of these emails, welcome!).
+However, to my slight dismay, I don't think that directly pitching people on cross-promotion will be enough by itself to sustain growth.
+I ended up going through most of the newsletters in the database faster than I expected (I was being fairly-but-not-extremely selective).
 
-![image](https://user-images.githubusercontent.com/3696602/133164547-b6aac9d1-65f3-4751-a4d2-744dcc60772b.png)
+Previously I was thinking that I could import lots of newsletters, wait for them to accumulate some 1-click subscribes, then email the publishers
+like I did this week (saying basically "we've got you X new subscribers, want to cross promote so you can get more?"). However now I think a better
+idea is to send publishers a quick notification email as soon as I import their newsletter, something like "Hi I run this thing called The Sample, it helps
+people get more newsletter subscribers, I just added your newsletter, if you want to see statistics and stuff
+you can click this link to create a publisher account, also if you want to opt-out you can click this link and then we won't forward your newsletter."
 
-**Algorithm improvements**
+With that approach, I'd be comfortable being less selective with who I email while still maintaining an acceptable
+level of non-spamminess. I still wouldn't send the message to e.g. large media outlets, but I also wouldn't need to exclude
+people simply because I don't think they'd be interested in cross promotion. Some of the people who make publisher accounts will see the
+referral link after they sign in, but even those who don't make an account will at least know we exist
+and hopefully have a favorable impression.
 
-We made the algorithm more strict about sending you newsletters that match the interests you selected when you signed up. It does this for 50% of
-your recommendations; the rest will still have lots of variety.
-We started this in an A/B test early last week, and after a couple days it looked like it was actually hurting the algorithm's performance,
-since average rating went down. However we later noticed that the total number of ratings we collected went up significantly; i.e. the changes
-made people more likely to rate the newsletters.
+So after I get an email template set up for that, I'll start importing more newsletters daily. If the positive response rate is high enough, I could ramp that up and spend all day importing newsletters (fingers crossed). Fortunately I have a big back log of newsletters to import
+thanks to the "what other newsletters do you subscribe to" question in our signup flow.
 
-We started tracking another metric: "positive feedback rate," which is the percentage of recommendations that result in a 1-click subscribe or a 4- or 5-star review.
-The positive feedback rate for the new change went up significantly for the new algorithm changes. We think that low ratings are at least a sign that the newsletter was interesting enough for the user to engage with instead of ignoring it completely, kind of like how they say it's a healthy sign when you get a bunch of unsubscribes after sending out an email. Average rating doesn't take that into account, so going forward we'll probably pay more attention to the positive feedback rate when evaluating A/B tests.
+**Blogging**
 
-As part of all that, I made it so you can update your interests. Click "change settings" at the bottom of one of The Sample's emails.
+Besides all that, I've decided it's time to finally bite the bullet and start writing regularly again instead of trying to rely on just growth
+hacks. I've spent [a bit](https://jacobobryant.com/directory/) of time writing in the past with meh results, but now that I don't need to spend much time coding, I'm willing to put more time and persistence into writing&mdash;even if it takes a long time to pay off.
 
-![image](https://user-images.githubusercontent.com/3696602/133165595-493f99e9-a6eb-4091-a9a8-f7f6d4b79c73.png)
+Probably starting next Monday, I'm planning to write one piece per week. I'll include a link in these emails so you can share it if you like.
+I'm going to make it work with the referral program too: the link in this email will include your newsletter's unique referral code. If you
+share an article I write and people sign up for The Sample after following your link, it'll count towards your referrals.
 
-I was originally planning to make an announcement about this to everyone, but I'm concerned about emphasizing the recent algorithm improvements too much.
-There's been an improvement, but it's incremental and I don't want to give the impression that we've made bigger changes than we actually have. We'll continue making improvements, and maybe we'll just let people find the new settings on their own.
+As such, I am very curious to know what things you'd be interested to read. Most things related to newsletters would be on-topic,
+especially newsletter discoverability. But also, newsletters are just one part of the broader "information ecosystem," and that's
+what I'm fundamentally focused on.
 
-(Oh, and you can set additional languages now. We don't have many non-English newsletters in the database currently, but I felt bad turning people down when they submitted them.)
+Here are a few examples of things I've written previously. I will probably update some of these and repost them on The Sample's website
+in addition to writing new articles.
 
-**Classified ads**
+[The Substack narrative](https://jacobobryant.com/p/substack-narrative/)
 
-I re-enabled the ad page. Ads are no longer targeted; instead they work like other newsletters: you book a day and then your ad goes to everyone on that day (not including the 10% of subscribers who get a paid forward). I've scheduled some of our old classified ads to run over the next several days. I'm not sure how the ROI of this will compare to paid forwards. I'm guessing that paid forwards are a better option for newsletters and the classified ads should be left for other kinds of products, but we'll see. After we have some more data, I'll include the median number of clicks.
+[App idea: casual curated newsletters](https://jacobobryant.com/p/casual-curated-newsletters/)
 
-![image](https://user-images.githubusercontent.com/3696602/133165987-03fbd9ec-4c8d-4262-a99b-3e74a323dbd0.png)
+[Newsletter platforms: please support 1-click subscribe](https://jacobobryant.com/p/one-click-subscribe/)
 
+[Some thoughts on newsletter advertising](https://jacobobryant.com/p/some-thoughts-on-newsletter-advertising/)
 
-**Future work**
+[The pros and cons of algorithmic curation](https://jacobobryant.com/p/the-pros-and-cons-of-algorithmic/)
 
-One other update: I added this fancy little graph to the [submit page](https://thesample.ai/submit/):
+[The last marketplace](https://jacobobryant.com/p/the-last-marketplace/)
 
-![image](https://user-images.githubusercontent.com/3696602/133169361-bb4813fa-3d9b-4db0-9d6a-a3432901b7cf.png)
+[Sane political discourse](https://jacobobryant.com/blog/politics/)
 
-It's part of a new growth strategy. I'm going through newsletters in our database that weren't submitted by the author (i.e. subscribers mentioned them in
-response to "what other newsletters do you subscribe to" when they signed up, and I added them) and have a high conversion rate. I email the author
-(which is easy because I have each newsletter's Reply-To address in our database already) and say basically "Hey I run this thing, I added your newsletter a while ago
-and we've got you some subscribers already, here's a CSV of them, do you want to do some cross promotion and get even more subscribers, here's a graph with
-past performance cross promoting with other newsletters."
-
-I've emailed a handful of people so far, and it's been pretty convenient at least. I could even make it totally automatic, but I do some manual vetting anyway (Scientific American probably isn't interested) so pasting a message into my email client is easy enough. I'm crossing my fingers that the response rate will be good. If this works, it might be all we need to grow fast.
+Are any of these interesting to you? What else would you like me to write about? [Let me know](mailto:jacob@thesample.ai).
 
 Jacob

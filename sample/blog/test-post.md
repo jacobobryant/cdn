@@ -21,6 +21,10 @@ people simply because I don't think they'd be interested in cross promotion. Som
 referral link after they sign in, but even those who don't make an account will at least know we exist
 and hopefully have a favorable impression.
 
+- foo
+- bar
+- baz
+
 So after I get an email template set up for that, I'll start importing more newsletters daily. If the positive response rate is high enough, I could ramp that up and spend all day importing newsletters (fingers crossed). Fortunately I have a big back log of newsletters to import
 thanks to the "what other newsletters do you subscribe to" question in our signup flow.
 
@@ -29,8 +33,18 @@ thanks to the "what other newsletters do you subscribe to" question in our signu
 
 **Blogging**
 
+- here's a list that's more spaced out
+
+- here's the second item in the list
+
+- and the third
+
 Besides all that, I've decided it's time to finally bite the bullet and start writing regularly again instead of trying to rely on just growth
 hacks. I've spent [a bit](https://jacobobryant.com/directory/) of time writing in the past with meh results, but now that I don't need to spend much time coding, I'm willing to put more time and persistence into writing&mdash;even if it takes a long time to pay off.
+
+> Let's try a blockquote, if you know what I mean.
+>
+> &ndash;whatup
 
 Probably starting next Monday, I'm planning to write one piece per week. I'll include a link in these emails so you can share it if you like.
 I'm going to make it work with the referral program too: the link in this email will include your newsletter's unique referral code. If you

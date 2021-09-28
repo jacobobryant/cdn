@@ -21,7 +21,8 @@ Alternatively you can follow [@the_sample_umm](https://twitter.com/the_sample_um
 help more, though of course the link wouldn't have your referral code then. Either way I'll be grateful.
 
 Last week when I asked for blog post topics someone mentioned serialized fiction. I'll be adding some relevant sources for that to my RSS reader,
-and I'll see if I can think of anything interesting to say. If you have any other ideas for things you'd be interested to hear me write
-about, let me know.
+and I'll see if I can think of anything interesting to say. If you have any other ideas for things you'd like to hear me write
+about, let me know. Regardless I'll probably write the next few pieces about whatever is most interesting to me personally, but I'd like to
+shift gradually towards writing things that are interesting to all (or at least many) of you.
 
 Jacob

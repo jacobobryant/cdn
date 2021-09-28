@@ -1,4 +1,4 @@
-{:title "Curating the curators" :date #inst "2021-09-29" :description "Should you let a machine help you decide what to read?" :image "https://user-images.githubusercontent.com/3696602/135165943-c71d0dc4-d686-473b-b5f6-95d6e6a05bcb.png"}
+{:title "Curating the Curators" :date #inst "2021-09-29" :description "Should you let a machine help you decide what to read?" :image "https://user-images.githubusercontent.com/3696602/135165943-c71d0dc4-d686-473b-b5f6-95d6e6a05bcb.png"}
 
 There's a common trade-off between things done by humans and things done by algorithms:
 humans often have better judgment, but they're slow and thus expensive at scale; while algorithms are the opposite.

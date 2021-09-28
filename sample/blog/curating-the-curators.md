@@ -15,3 +15,6 @@ of their niche than our algorithm ever could.
 So the bulk of your recommendations come from humans who you know and trust, and the algorithm tries to
 help you find curators and authors worth subscribing to. Even if some of the algorithm's recommendations are duds, that's OK
 as long as it finds you enough good newsletters to keep your inbox fresh.
+
+An interesting implication is that The Sample isn't really about newsletters per se. By teaming up with human curators, it can help you discover
+anything.

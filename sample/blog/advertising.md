@@ -25,4 +25,4 @@ This doesn't address the deeper concerns with advertising, like [sharing data wi
 the question of if it pushes companies to [maximize for engagement](https://on.substack.com/p/breaking-off-the-engagement) more than they otherwise would.
 There's also the fact that some ads are just plain annoying, but that's no different from a product that's too expensive. Hopefully
 as we [dig into](https://www.ben-evans.com/benedictevans/2021/8/27/understanding-privacy) those issues and look for solutions, we can at least
-acknowledge that advertising doesn't have to be a bad thing.
+acknowledge that advertising can be a good thing.

@@ -1,4 +1,4 @@
-{:date #inst "2021-10-04" :title "Why I changed my mind about advertising" :image "https://user-images.githubusercontent.com/3696602/135544353-54f3f2c0-2a65-4297-8548-4a066f5af4c3.png" :description "I used to be very anti-advertising. Fast forward two years and several pivots, and my slightly-less-early-stage business is doing $900 per month in revenue... from ads."
+{:date #inst "2021-10-04" :title "Why I changed my mind about advertising" :image "https://user-images.githubusercontent.com/3696602/135544353-54f3f2c0-2a65-4297-8548-4a066f5af4c3.png" :description "I used to be very anti-advertising. Fast forward two years and several pivots, and my slightly-less-early-stage business is doing $900 per month in revenue... from ads."}
 
 I used to be very anti-advertising. I believed that in addition to being annoying, it was unnecessary&mdash;that if for some reason
 advertising became infeasible, sure, some companies would go out of business, but they'd be replaced by better companies

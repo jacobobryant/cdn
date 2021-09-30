@@ -17,7 +17,7 @@ In particular, attention is a form of [micropayment with low friction](https://t
 When you create a product that provides a little value to a lot of people (vs. a lot of value to a few people),
 any friction or transaction costs can easily dominate the amount you charge and make the product unviable. [The Sample](https://thesample.ai) (my business) makes almost 1 penny
 per user per day thanks to [paid forwards](https://silken-cafe-474.notion.site/About-The-Sample-a989b5bd39054b37a51432d6999beac3#897e7ab4bba742ba9a5830097ac33eb8) (enough to cover the cost of sending email with plenty of margin left over, fortunately).
-Theoretically, that's equivalent to charging everyone a subscription of $3.65/year, not including Stripe fees--except that
+Theoretically, that's equivalent to charging everyone a subscription of $3.65/year, not including Stripe fees&mdash;except that
 charging attention instead means no one has to put in a credit card, and they don't even have to decide up front if the cost is
 worth it since it's pay-as-you-go. If it's not worth it, people try it for a bit and then unsubscribe.
 

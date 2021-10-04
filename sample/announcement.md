@@ -48,6 +48,8 @@ I've also got a handful of updates planned:
 
  - Improve the way we boost long-tail newsletters. This is related to my discussion above about the Gini index. The way we optimize for it right now is kind of ok
    but could be better. We've had some ideas lately for improving it. Ideally it'd be nice if we could say "X% of newsletters get at least Y forwards per week," with relatively high values for X and Y. Though obviously we'd like to do that while still sending people newsletters that we think they'll personally enjoy.
+   
+ - Probably going to disable classified ads again. The click-through rate has been really low, so at this point it just isn't going to generate significant revenue compared to paid forwards.
 
 At some point I might also like to add a "demo" feature where people can opt to receive 2 more issues from a newsletter (so they can try it out a bit more
 before deciding if they want to subscribe). However I've decided this is non-essential and should wait until after we're growing consistently (we're not, by the way--we've been on a plateau for a few months, hence my recent focus on blogging). I'd also like to A/B test it too. In some cases, this will result in people subscribing

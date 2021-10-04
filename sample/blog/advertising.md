@@ -11,7 +11,7 @@ I even made [this prediction](https://news.ycombinator.com/item?id=20542993) in 
 Fast forward two years and several pivots, and my slightly-less-early-stage business is doing $900 per month in revenue... from ads.
 Along the way I've also adopted a new mental model for advertising. 
 Basically I think of attention as a currency and advertising as a foreign exchange. When you use an ad-supported service, you're not ["the product,"](http://powazek.com/posts/3229) you are the customer. You pay with attention, and the service trades some of that attention to an advertiser in exchange for regular currency.
-The great thing about attention-as-a-currency is that it has some properties that make it a viable way to charge for some services where regular currency isn't.
+The great thing about attention-as-a-currency is that it has certain properties that make it a viable way to charge for some services where regular currency isn't.
 
 In particular, attention is a form of [micropayment with low friction](https://twitter.com/patio11/status/1406902219086069766).
 When you create a product that provides a little value to a lot of people (vs. a lot of value to a few people),
@@ -21,8 +21,9 @@ Theoretically, that's equivalent to charging everyone a subscription of $3.65/ye
 charging attention instead means no one has to put in a credit card, and they don't even have to decide up front if the cost is
 worth it since it's pay-as-you-go. If it's not worth it, people try it for a bit and then unsubscribe.
 
-This doesn't address the deeper concerns with advertising, like [sharing data with 3rd parties](https://warzel.substack.com/p/the-internets-original-sin) or
+This doesn't address more salient concerns with advertising, like [sharing data with 3rd parties](https://warzel.substack.com/p/the-internets-original-sin) or
 the question of if it pushes companies to [maximize for engagement](https://on.substack.com/p/breaking-off-the-engagement) more than they otherwise would.
-There's also the fact that some ads are just plain annoying, but that's no different from a product that's too expensive. Hopefully
-as we [dig into](https://www.ben-evans.com/benedictevans/2021/8/27/understanding-privacy) those issues and look for solutions, we can at least
-acknowledge that advertising can be a good thing.
+(There's also the fact that some ads are just plain annoying, but that's no different from a product that's too expensive.) However, this small mental shift
+is what made me think we should try to work out solutions for those problems that don't involve simply [abandoning ads](https://www.theatlantic.com/technology/archive/2014/08/advertising-is-the-internets-original-sin/376041/) altogether.
+
+See also: [Why I Work on Ads](https://www.jefftk.com/p/why-i-work-on-ads) by Jeff Kaufman, a software engineer who works on ads at Google. He also [responded](https://news.ycombinator.com/item?id=20543215) to my original comment on Hacker News.

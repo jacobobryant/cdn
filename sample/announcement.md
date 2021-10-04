@@ -2,6 +2,11 @@
 
 *You can give feedback via email, [Discord](https://discord.gg/xAumsfVyRd) or [Twitter](https://twitter.com/the_sample_umm).*
 
+First, a quick reminder: if your newsletter uses double opt-in, you might want to periodically download the CSV of 1-click subscribers from the publisher console and import it, in
+case any of them didn't click the confirmation link. Especially if you're using paid forwards&mdash;I'd hate for you to pay for a subscriber and then not actually
+get them on your list. The 1-click subscribe link is effectively the same as clicking a confirmation link, as long as you trust
+me to not lie about who clicked it.
+
 I've just published a new post, "Why I changed my mind about advertising." If you want to share it, here's a link with your newsletter's
 referral code: [https://thesample.ai/blog/advertising/?ref={{ nl.nl/ref-code }}](https://thesample.ai/blog/advertising/?ref={{ nl.nl/ref-code }}). There's also a [Twitter thread](https://twitter.com/the_sample_umm/status/1445084733969289216). I
 also finished the other article I mentioned I was working on last week, "Curating the curators" ([referral link](https://thesample.ai/blog/curating-the-curators/?ref={{ nl.nl/ref-code }}) | [Twitter](https://twitter.com/the_sample_umm/status/1443224795470962692)).
@@ -48,5 +53,7 @@ At some point I might also like to add a "demo" feature where people can opt to 
 before deciding if they want to subscribe). However I've decided this is non-essential and should wait until after we're growing consistently (we're not, by the way--we've been on a plateau for a few months, hence my recent focus on blogging). I'd also like to A/B test it too. In some cases, this will result in people subscribing
 who otherwise wouldn't have, but it could also have the opposite effect: people who would've hit 1-click subscribe instead do a demo and then don't subscribe. That's
 not necessarily a bad thing (I mean, still seems like a positive thing from the reader's perspective), but it'd be nice to see just how big the effect is in both directions.
+
+In any case, that'll probably wait until after I write integrations to automate the 1-click subscribes....
 
 Jacob

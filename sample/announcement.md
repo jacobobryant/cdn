@@ -52,7 +52,7 @@ I've also got a handful of updates planned:
  - Probably going to disable classified ads again. The click-through rate has been really low, so at this point it just isn't going to generate significant revenue compared to paid forwards.
 
 At some point I might also like to add a "demo" feature where people can opt to receive 2 more issues from a newsletter (so they can try it out a bit more
-before deciding if they want to subscribe). However I've decided this is non-essential and should wait until after we're growing consistently (we're not, by the way--we've been on a plateau for a few months, hence my recent focus on blogging). I'd also like to A/B test it too. In some cases, this will result in people subscribing
+before deciding if they want to subscribe). However I've decided this is non-essential and should wait until after we're growing consistently (we're not, in case you're wondering&mdash;we've been on a plateau for a few months, hence my recent focus on blogging). I'd also like to A/B test it too. In some cases, this will result in people subscribing
 who otherwise wouldn't have, but it could also have the opposite effect: people who would've hit 1-click subscribe instead do a demo and then don't subscribe. That's
 not necessarily a bad thing (I mean, still seems like a positive thing from the reader's perspective), but it'd be nice to see just how big the effect is in both directions.
 

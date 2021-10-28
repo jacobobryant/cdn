@@ -1,4 +1,4 @@
-{:date #inst "2021-12-2"
+{:date #inst "2021-12-02"
  :title "How The Sample drove 10K newsletter subscriptions"
  :image "https://user-images.githubusercontent.com/3696602/139344829-ac9232b4-23a4-483a-bc84-bf947dafbb1f.png"
  :description "A couple weeks ago The Sample hit a big milestone: we've generated over 10,000 new subscriptions for other newsletters via our "subscribe in 1 click" links."}

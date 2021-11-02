@@ -1,4 +1,4 @@
-{:date #inst "2021-11-2" :subject "; blog post done; more retention thoughts"}
+{:date #inst "2021-11-02" :subject "; blog post done; more retention thoughts"}
 
 *You can give feedback via email, [Discord](https://discord.gg/xAumsfVyRd) or [Twitter](https://twitter.com/the_sample_umm).*
 

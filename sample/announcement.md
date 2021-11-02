@@ -1,17 +1,11 @@
-{:date #inst "2021-10-25" :subject "; almost new blog post; thinking about retention"}
+{:date #inst "2021-11-1" :subject "; almost new blog post; thinking about retention"}
 
 *You can give feedback via email, [Discord](https://discord.gg/xAumsfVyRd) or [Twitter](https://twitter.com/the_sample_umm).*
 
-I put together [a little spreadsheet](https://docs.google.com/spreadsheets/d/1pVQC7WznrQ8MNaRrmbfIDbutvnjbKGaB_rtXcXmFjFc/edit#gid=0) of cross-promotion performance last week as an aid for pitching more people on sharing referral links. There's been an uptick in people doing that recently, by the way&mdash;thank you!
+I finally finished writing this blog post: [How The Sample drives thousands of newsletter subscriptions](https://thesample.ai/blog/10k-subscriptions/). (Obviously "thousands" is cumulative&mdash;turns out the median number of subscribers that individual newsletters get, excluding paid and cross-promotion subscribers, is seven). If you'd like to do us "a solid" as they say, you can retweet [the announcement](#).
 
-I've also sort-of finished a draft of a blog post: [How The Sample has driven 10K newsletter subscriptions](https://gist.github.com/jacobobryant/27cd9bf808654c2dddb411f8df5d3a8f).  There's an animated GIF that demonstrates how I import newsletters which maybe you'd find interesting. I was planning to publish it tomorrow, but I still need to generate some charts, so I'll publish it next week. In the mean time, give it a read and let me know if you think there's anything else I should talk about. I'll probably send this email out Tuesday morning next week so I can throw in a link to the tweet announcement.
+With that out of the way, I'm now refactoring our server code which has been devolving into a ball of mud. Soon it will be sculpted into a beautiful castle made of clay, hopefully to hold its shape for at least three or four months. As I mentioned last week, we'll also be doing some more churn/retention analysis, looking for things to optimize. Our monthly churn is roughly 8% which feels... not great?
 
-I've been thinking about how to improve our retention. We get new subscribers every day, but they're pretty much matched by our unsubscribers, and we remain on a plateau. Improving the recommendation algorithm is one important thing obviously, and we continue to do that. I think setting expectations correctly up front is also important, and after the latest round of landing page tweaks, I'm satisfied with our handling of that. Besides those things, I think it'd be helpful to have a closer relationship with subscribers somehow.
-
-These weekly emails hopefully do that for publishers, but I haven't interacted with everyone else very much apart from answering emails. I'm not much of a tweeter, but maybe
-it'd help to write a short weekly thread about what we've been working on and throw in a link to it in the emails, perhaps every Tuesday. Kind of like a mini version of these weekly announcements but oriented towards regular subscribers.
-
-In other news, I spent a fair amount of time last week applying metaphorical duct tape to our production servers. We're strict adherents of the [big ball of mud](http://www.laputan.org/mud/) architectural pattern. It's about time for another code overhaul&mdash;hopefully I'll start on that late this week.
-
+I'm a little anxious about how good our retention can be&mdash;will we get a significant percentage of people to stay active for a long time? Or will this be a thing where people subscribe for a while, find a handful of newsletters they like, and then leave? I guess even if it is the latter, that doesn't necessarily mean The Sample won't be a successful business; we just need to be aware of that and respond accordingly. Though as a backup plan, maybe I should spend a little more time working on complementary products to integrate with The Sample. I've got ideas both on the publishing and reading side for things I'd like to use myself, but I haven't prioritized them since I have only so many hours in a day (especially with a 10-month old daughter!) and need to stay focused.
 
 Jacob

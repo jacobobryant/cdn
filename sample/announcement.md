@@ -1,13 +1,23 @@
-{:date #inst "2021-11-02" :subject "; blog post done; more retention thoughts"}
+{:date #inst "2021-11-08" :subject ""}
 
 *You can give feedback via email, [Discord](https://discord.gg/xAumsfVyRd) or [Twitter](https://twitter.com/the_sample_umm).*
 
-I finally finished writing this blog post: [How The Sample drives thousands of newsletter subscriptions](https://thesample.ai/blog/10k-subscriptions/). (Obviously "thousands" is cumulative&mdash;turns out the median number of subscribers that individual newsletters get, excluding paid and cross-promotion subscribers, is seven). If you'd like to do us "a solid," as they say, you can retweet [the announcement](https://twitter.com/the_sample_umm/status/1455526777548251137).
+We've had 47 more people submit their newsletters in the past week. Welcome everyone!
 
-With that out of the way, I'm now refactoring our server code which has been devolving into a ball of mud. Soon it will be sculpted into a beautiful castle made of clay, hopefully to hold its shape for at least three or four months. As I mentioned last week, we'll also be doing some more churn/retention analysis, looking for things to optimize. Our monthly churn is roughly 8% which feels... not great?
+The [blog post](https://thesample.ai/blog/10k-subscriptions/) from last week seems to have gone over pretty well. I'm extremely grateful to all of you who shared it. Besides all the newsletter submissions, we've had a few hundred new signups, enough that growth has been even higher than churn (7-day moving average for daily active users hit 1,825 today, up from 1,761 a week ago). We're averaging 39 signups per day (today we had 58!). I'm interested to see how growth is over the next few weeks, after the spike has subsided.
 
-I'm a little anxious about how good our retention can be&mdash;will we get a significant percentage of people to stay active for a long time? Or will this be a thing where people subscribe for a while, find a handful of newsletters they like, and then leave? I guess even if it is the latter, that doesn't necessarily mean The Sample won't be a successful business; we just need to be aware of that and respond accordingly. Though as a backup plan, maybe I should spend a little more time working on complementary products to integrate with The Sample. I've got ideas both on the publishing and reading side for things I'd like to use myself, but I haven't prioritized them since I have only so many hours in a day (especially with a 10-month old daughter!) and need to stay focused.
+I did a tiny bit more retention analysis on our July cohort (the one where we had a huge signup spike from getting featured in Recomendo), which has been our highest-retaining cohort. It looks like retention has actually flattened out for them pretty nicely:
 
-One last thing: I fixed a bug recently that was causing some people who had referred 1 - 5 people to The Sample to not get any cross-promotion forwards in return. Now, if you've referred people but haven't yet received at least as many 1-click subscribes in return, you should get at least 20-ish cross-promotion forwards per day (until you run out of them--current limit is about 75 forwards per referral).
+![image](https://user-images.githubusercontent.com/3696602/140848179-393cc454-b7da-4df8-9927-f06310ed0f50.png)
+
+(That dip on day 4 was because we had a technical glitch and didn't send out the emails until the afternoon one day).
+
+That being said, that cohort hasn't flattened in terms of 1-click subscribes:
+
+![image](https://user-images.githubusercontent.com/3696602/140848500-35a53e40-d04d-4cc6-8ddb-ab01186072a4.png)
+
+I'm interested to see if that second chart flattens out over the next few months. Even if retention isn't good enough for us to grow organically, we might still be able to grow profitably via cross-promotion and/or paid acquisition. In total, we've had about 6,000 signups (including people who have since unsubscribed) and we've generated about 12,000 one-click subscribes&mdash;so on average, each incoming subscriber results in two outgoing subscriptions. Thus, for example, we could crank up the portion of forwards dedicated to cross-promotion to 50%, and that should allow us to match the number of subscribers we receive in cross-promotions *no matter how many people cross-promote with us*.
+
+Similarly, if we do paid acquisition, we can crank up the portion of paid forwards those people get. If we set paid forwards to 50% and we make as much money from a paid 1-click subscribe as we spend to get a subscriber, we'd break even. That seems doable! (We are in fact experimenting with Facebook ads&mdash;our CPA is currently at $1.25 which seems kind of shocking, a lot better than the $4 CPA we were getting a while ago, though I don't think we've had any 1-click subscribes from these people yet).
 
 Jacob

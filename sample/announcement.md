@@ -8,13 +8,13 @@ The [blog post](https://thesample.ai/blog/10k-subscriptions/) from last week see
 
 I did a tiny bit more retention analysis on our July cohort (the one where we had a huge signup spike from getting featured in Recomendo), which has been our highest-retaining cohort. It looks like retention has actually flattened out for them pretty nicely:
 
-<img style="max-width: 600px" src="https://user-images.githubusercontent.com/3696602/140848179-393cc454-b7da-4df8-9927-f06310ed0f50.png">
+<img style="max-width: 450px" src="https://user-images.githubusercontent.com/3696602/140848179-393cc454-b7da-4df8-9927-f06310ed0f50.png">
 
 (That dip on day 4 was because we had a technical glitch and didn't send out the emails until the afternoon one day).
 
 That being said, that cohort hasn't flattened in terms of 1-click subscribes:
 
-<img style="max-width: 600px" src="https://user-images.githubusercontent.com/3696602/140848500-35a53e40-d04d-4cc6-8ddb-ab01186072a4.png">
+<img style="max-width: 450px" src="https://user-images.githubusercontent.com/3696602/140848500-35a53e40-d04d-4cc6-8ddb-ab01186072a4.png">
 
 I'm interested to see if that second chart flattens out over the next few months. Even if retention isn't good enough for us to grow organically, we might still be able to grow profitably via cross-promotion and/or paid acquisition. In total, we've had about 6,000 signups (including people who have since unsubscribed) and we've generated about 12,000 one-click subscribes&mdash;so on average, each incoming subscriber results in two outgoing subscriptions. Thus, for example, we could crank up the portion of forwards dedicated to cross-promotion to 50%, and that should allow us to match the number of subscribers we receive in cross-promotions *no matter how many people cross-promote with us*.
 

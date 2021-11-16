@@ -1,23 +1,17 @@
-{:date #inst "2021-11-08" :subject ""}
+{:date #inst "2021-11-15" :subject ""}
 
 *You can give feedback via email, [Discord](https://discord.gg/xAumsfVyRd) or [Twitter](https://twitter.com/the_sample_umm).*
 
-We've had 47 more people submit their newsletters in the past week. Welcome everyone!
+Last week I mentioned that our retention/monetization is plausibly good enough for us to use paid acquisition as a primary growth channel. Turns out we haven't been getting great ROI from our Facebook lead ad&mdash;we were able to go through a $40/day budget with an average CPA of $1 or so (1st tier audience), but they've been less engaged then our other subscribers. In particular, their click-through rate for the "subscribe in 1 click" link is like 0.3%, while the average is currently 2.5%. FB ads might still work out, but we'll need to spend more time optimizing. In the mean time we've decreased the ad spend.
 
-The [blog post](https://thesample.ai/blog/10k-subscriptions/) from last week seems to have gone over pretty well. I'm extremely grateful to all of you who shared it. Besides all the newsletter submissions, we've had a few hundred new signups, enough that growth has been even higher than churn (7-day moving average for daily active users hit 1,825 today, up from 1,761 a week ago). We're averaging 39 signups per day (today we had 58!). I'm interested to see how growth is over the next few weeks, after the spike has subsided.
+While my cofounder works on that, I'm going to resume buying classified ads in newsletters. (So far I've booked one in Maker Mind for this Thursday). My experience with newsletter ads is that they're very hit and miss (usually miss). On the plus side, the people you get are guaranteed to be "newsletter people" since they came from a newsletter, and maybe sponsoring a bunch of publishers will also help The Sample get more word-of-mouth growth. In any case, I'll spend some more time/money on it and see if I can get the numbers to work out.
 
-I did a tiny bit more retention analysis on our July cohort (the one where we had a huge signup spike from getting featured in Recomendo), which has been our highest-retaining cohort. It looks like retention has actually flattened out for them pretty nicely:
+Maybe we can make a deal: if you've used newsletter ads to grow your subscribers, [fill out this quick form](https://airtable.com/shri5zuzYCawBuUXE) with the names or URLs of the ones you've had success with. In return, I'll include in this weekly publisher report the performance for all newsletter ads we buy. For example&mdash;by far the best ROI I've had was when I bought a classified ad in [Dense Discovery](https://www.densediscovery.com/) several months ago. I believe it was $90 at the time, and I got almost 200 subs from it. Ridiculous. (Unsurprisingly, the ad slots are usually all full. You have to get on a waiting list.)
 
-<img style="max-width: 450px" src="https://user-images.githubusercontent.com/3696602/140848179-393cc454-b7da-4df8-9927-f06310ed0f50.png">
+Whether FB or newsletters, if we can get positive ROI on *some* paid acquisition strategy, we'll proceed to dump as much money as we can into it. I currently do about $1k/month worth of freelancing (web dev) which we're using as our current ad budget, and then there's the ~$800/month we're getting from The Sample, minus a couple hundred for servers and email. I'm open to doing more freelancing in order to increase our ad budget.
 
-(That dip on day 4 was because we had a technical glitch and didn't send out the emails until the afternoon one day).
+Besides all that, I've mostly finished redoing our behind-the-scenes software architecture stuff, after which we'll try out another handful of algorithm tweaks. It's going somewhat slowly though since I have family in town and am thus sort of on vacation, I guess. (Speaking of which, it's always amusing when you go to the post office only to discover it's closed thanks to some holiday. I'm much less aware of those since I haven't had a regular job in almost three years).
 
-That being said, that cohort hasn't flattened in terms of 1-click subscribes:
-
-<img style="max-width: 450px" src="https://user-images.githubusercontent.com/3696602/140848500-35a53e40-d04d-4cc6-8ddb-ab01186072a4.png">
-
-I'm interested to see if that second chart flattens out over the next few months. Even if retention isn't good enough for us to grow organically, we might still be able to grow profitably via cross-promotion and/or paid acquisition. In total, we've had about 6,000 signups (including people who have since unsubscribed) and we've generated about 12,000 one-click subscribes&mdash;so on average, each incoming subscriber results in two outgoing subscriptions. Thus, for example, we could crank up the portion of forwards dedicated to cross-promotion to 50%, and that should allow us to match the number of subscribers we receive in cross-promotions *no matter how many people cross-promote with us*.
-
-Similarly, if we do paid acquisition, we can crank up the portion of paid forwards those people get. If we set paid forwards to 50% and we make as much money from a paid 1-click subscribe as we spend to get a subscriber, we'd break even. That seems doable! (We are in fact experimenting with Facebook ads&mdash;our CPA is currently at $1.25 which seems kind of shocking, a lot better than the $4 CPA we were getting a while ago, though I don't think we've had any 1-click subscribes from these people yet).
+On a final note, our daily active users have continued to increase, even though it's been two weeks since the spike from [the blog post](https://thesample.ai/blog/10k-subscriptions/). The 7-day moving average was 1,948 today, up from 1,825 a week ago (a 6.7% increase). We've been averaging 40 signups per day. So that's two weeks in a row of growth... mwa ha ha. (Of course a portion of that is from dumping money into FB). Maybe we'll get lucky and start to grow consistently from word-of-mouth and cross-promotion, and all this paid acquisition stuff will be less important than simply improving the product. (Fingers crossed).
 
 Jacob

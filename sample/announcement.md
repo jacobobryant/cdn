@@ -1,17 +1,33 @@
-{:date #inst "2021-11-15" :subject ""}
+{:date #inst "2021-11-22" :subject ""}
 
 *You can give feedback via email, [Discord](https://discord.gg/xAumsfVyRd) or [Twitter](https://twitter.com/the_sample_umm).*
 
-Last week I mentioned that our retention/monetization is plausibly good enough for us to use paid acquisition as a primary growth channel. Turns out we haven't been getting great ROI from our Facebook lead ad&mdash;we were able to go through a $40/day budget with an average CPA of $1 or so (1st tier audience), but they've been less engaged then our other subscribers. In particular, their click-through rate for the "subscribe in 1 click" link is like 0.3%, while the average is currently 2.5%. FB ads might still work out, but we'll need to spend more time optimizing. In the mean time we've decreased the ad spend.
+Just a few notes this week. Last week I talked about buying ads in newsletters. I spent a few hours sourcing newsletters, and then I decided it'd be best to
+finish all my coding tasks first and then focus more fully on ads, rather than trying to do both concurrently. I do have the results from the ad I ran in Maker Mind on Thursday: 63 clicks, 39 unique clicks, and 18 signups, for a CPA of $8.33.
 
-While my cofounder works on that, I'm going to resume buying classified ads in newsletters. (So far I've booked one in Maker Mind for this Thursday). My experience with newsletter ads is that they're very hit and miss (usually miss). On the plus side, the people you get are guaranteed to be "newsletter people" since they came from a newsletter, and maybe sponsoring a bunch of publishers will also help The Sample get more word-of-mouth growth. In any case, I'll spend some more time/money on it and see if I can get the numbers to work out.
+As for coding, we just finished redoing the daily machine learning pipeline which calculates recommendations, and now we need to redo the parts that take those recommendations and send them as emails. There won't be any user visible changes, but going forward the code will be much easier for us to work with. After that, I'm making a few small product changes:
 
-Maybe we can make a deal: if you've used newsletter ads to grow your subscribers, [fill out this quick form](https://airtable.com/shri5zuzYCawBuUXE) with the names or URLs of the ones you've had success with. In return, I'll include in this weekly publisher report the performance for all newsletter ads we buy. For example&mdash;by far the best ROI I've had was when I bought a classified ad in [Dense Discovery](https://www.densediscovery.com/) several months ago. I believe it was $90 at the time, and I got almost 200 subs from it. Ridiculous. (Unsurprisingly, the ad slots are usually all full. You have to get on a waiting list.)
+ - We'll start boosting non-English newsletters, so those will get forwarded relatively quickly to everyone who has selected the relevant language in their preferences. I'll also make a general announcement about this since a lot of our subscribers signed up before I added a language setting, and they may not be aware it exists.
+ - Demo button. This has been suggested to me twice by regular subscribers and twice by publishers. I'll add a button to the bottom of the email, right after the 1-click subscribe link, that says something like "On the fence? [Demo this newsletter] and we'll send you the next two issues as they come in."
+ - Send time optimization. Instead of sending everyone their email at 6 AM or so Pacific time, we'll look at the window of when people are usually active and try to pick the best time to send.
+ - Various bug fixes with rendering emails and handling clicks. It seems for a small percentage of people, GMail messes up the rating links which causes them to show an "invalid link" page.
+ - Maybe do some A/B testing on the landing page and/or email design.
 
-Whether FB or newsletters, if we can get positive ROI on *some* paid acquisition strategy, we'll proceed to dump as much money as we can into it. I currently do about $1k/month worth of freelancing (web dev) which we're using as our current ad budget, and then there's the ~$800/month we're getting from The Sample, minus a couple hundred for servers and email. I'm open to doing more freelancing in order to increase our ad budget.
+While I work on that, my cofounder will be continuing to experiment with FB ads and running some more A/B tests on the recommendation algorithm.
 
-Besides all that, I've mostly finished redoing our behind-the-scenes software architecture stuff, after which we'll try out another handful of algorithm tweaks. It's going somewhat slowly though since I have family in town and am thus sort of on vacation, I guess. (Speaking of which, it's always amusing when you go to the post office only to discover it's closed thanks to some holiday. I'm much less aware of those since I haven't had a regular job in almost three years).
+By the way, there is one somewhat significant change that'll go out once we finish the refactoring work I mentioned. We're modifying how we handle cross-promotion. Going forward, we'll give you additional cross-promotion forwards until one of the following conditions is met:
 
-On a final note, our daily active users have continued to increase, even though it's been two weeks since the spike from [the blog post](https://thesample.ai/blog/10k-subscriptions/). The 7-day moving average was 1,948 today, up from 1,825 a week ago (a 6.7% increase). We've been averaging 40 signups per day. So that's two weeks in a row of growth... mwa ha ha. (Of course a portion of that is from dumping money into FB). Maybe we'll get lucky and start to grow consistently from word-of-mouth and cross-promotion, and all this paid acquisition stuff will be less important than simply improving the product. (Fingers crossed).
+- The number of 1-click subscribers you've received from cross-promotion forwards matches or exceeds the number of subscribers you've referred to us.
+- You've received at least 100 cross-promotion forwards for each subscriber you've referred to us.
+
+Right now we have a slightly more complicated system: we dedicate a fixed percentage (10%) of forwards to cross-promotion, and then we make sure you receive a share of the forwards in proportion to how many people you refer. With the new system, for those of you have sent us referrals: if you *didn't* get as many subscribers in return, you'll get some more forwards (the old system worked out to about 75 forwards/referral, so this'll be a 33% boost); if you *did* get as many subscribers in return and you've been continuing to receive cross-promotion forwards, you'll stop getting those forwards until you refer more people.
+
+The new system requires less code, is easier to explain, and is IMO still fair. One downside is that if the algorithm has already "overshot" on cross-promotion, you might have to refer a bunch of people before it starts to do anything again. For example, if you've referred 20 people and received 30 people, you wouldn't get any more cross-promotion forwards until you've referred more than 10 additional people. I could do something to fix that, but only a handful of people are in this boat, and most people share the link just once or twice anyway, so I figure it's not a big deal.
+
+Hopefully that all makes sense--let me know if you have any questions.
+
+In other news, my 11-month old daughter got her first cold last week. I thought I would be safe thanks to my robust adult immune system, but alas, no. Fortunately that's over with now.
+
+Anyone else have a tendency to start their newsletters with "just a short one this week" and then end up with 10 paragraphs anyway?
 
 Jacob

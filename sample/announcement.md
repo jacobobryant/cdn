@@ -1,4 +1,4 @@
-{:date #inst "2021-16-06" :subject ""}
+{:date #inst "2021-12-06" :subject ""}
 
 *You can give feedback via email, [Discord](https://discord.gg/xAumsfVyRd) or [Twitter](https://twitter.com/the_sample_umm).*
 

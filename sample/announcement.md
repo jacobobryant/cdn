@@ -1,13 +1,17 @@
-{:date #inst "2021-12-06" :subject ""}
+{:date #inst "2021-12-13" :subject ""}
 
 *You can give feedback via email, [Discord](https://discord.gg/xAumsfVyRd) or [Twitter](https://twitter.com/the_sample_umm).*
 
-The biggest change last week, as you may have noticed if you are yourself subscribed to The Sample, is that I updated [the email design](https://twitter.com/the_sample_umm/status/1467021081957396481). It looks nicer, and the buttons are bigger. Even paid 40 bucks for a font ("Brandon Grotesque Bold") and paid for a Canva account to make a real logo. I also reworked the signup flow so that instead of having users answer more questions after they signup, we immediately send them their first newsletter and tell them to go check their inbox. The first email they get includes a prompt to go answer more questions (shown in the linked screenshot).
+ - I chatted with Dominik from Refind last week, and it turns out they have an automated [cross-promotion setup](https://refind.com/cross-promo) kind of like The Sample's. Worth checking out! It's worked great for me already.
 
-This appears to have had a pretty positive effect. For a while we've been getting 600 - 650 one-click subscribes per week; over the past 7 days we've had 773. And even more dramatic: before the redesign, we were doing about $25/day in revenue from paid forwards; since the redesign we've been averaging $75/day. If we grow that by just 4x or so, The Sample will be able to pay my and my cofounder's living expenses indefinitely. So we're pretty excited about that. It looks like we'll be able to stick with this business for the long haul.
+ - I accidentally broke the subscribers CSV export over the weekend. If you tried to export subscribers in the past few days and it didn't work, try again now.
 
-We haven't yet looked at specifically which users the revenue is coming from, but one factor is definitely subscribers we've acquired through Facebook lead ads. So far they haven't been very active, but after the redesign, the number of daily 1-click subscribes we've been getting from them jumped immediately from 2 to 10 (and today it was 18). Since we pay money to acquire those users, we give them a much higher rate of paid vs. organic forwards: 50% instead of the usual 10%. So that's at least part of why revenue has grown faster than our number of 1-click subscribes overall. (Another factor is that we actually bumped the paid forward rate for regular subscribers up from 10% to 15%. That's about 1 paid forward per week for a daily subscriber, which seems pretty reasonable.)
+ - Speaking of which, if you're on Substack, you should still export/import your subscribers occassionally because Substack sometimes requires new subscribers to click a confirmation link even if you don't have double opt-in enabled. I've added a note about this to the publisher console.
 
-Again, we still need to do more experimenting and number crunching, but it's looking more plausible that we'll be able to grow profitably via paid acquisition, which might mean that our 4x growth target is just around the corner. I'll keep my fingers crossed!
+I've finished all the code maintenance stuff I've been working on. I was going to implement a few more user-facing features, but now that the time has come, they don't feel essential enough. So I've made a [roadmap/backlog document]() for anyone who's interested in the list of things I'm planning to do eventually, and in the mean time, I'm making user acquisition my primary focus.
+
+If all goes well, I would love to stay focused on growth until we're making enough money that I can hire a freelancer to continue adding incremental features. If not, perhaps at some point I'll start devoting one day per week to it with the rest of my time spent on growth. Either way my cofounder will continue to work on the recommendation algorithm which is the main part of the product we need to keep improving.
+
+By the way, I wrote a little blog post which some of you may find interesting: [The messy future of social media](https://jacobobryant.com/p/messy-future-social-media/).
 
 Jacob
